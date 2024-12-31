@@ -6,6 +6,8 @@ Monitor local host file on windows
 PowerShell
 
 New-Service -Name "LocalHostMonitor" -BinaryPathName "PathToExe"
+
+Example: New-Service -Name "LocalHostMonitor" -BinaryPathName "C:\Users\25982\Documents\Release\LocalHostMonitor\Localhost-Monitor.exe"
 ```
 
 
